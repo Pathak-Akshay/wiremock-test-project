@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WireMockTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="DockerizedWiremockTests(failed)" verbose="0">
+    <classes>
+      <class name="org.example.test.DockerizedWiremockTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testGetUserFromContainer"/>
+          <include name="setup"/>
+          <include name="testCreateUserWithContainer"/>
+        </methods>
+      </class> <!-- org.example.test.DockerizedWiremockTest -->
+    </classes>
+  </test> <!-- DockerizedWiremockTests(failed) -->
+</suite> <!-- Failed suite [WireMockTestSuite] -->

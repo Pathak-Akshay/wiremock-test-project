@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-19T19:34:50 IST" name="Surefire suite" finished-at="2025-05-19T19:34:51 IST" duration-ms="1046">
+    <groups>
+    </groups>
+    <test started-at="2025-05-19T19:34:50 IST" name="Surefire test" finished-at="2025-05-19T19:34:51 IST" duration-ms="1046">
+      <class name="org.example.test.DockerizedWiremockTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.test.DockerizedWiremockTest@67a20f67]" started-at="2025-05-19T19:34:50 IST" name="setup" finished-at="2025-05-19T19:34:51 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUserWithContainer()[pri:0, instance:org.example.test.DockerizedWiremockTest@67a20f67]" started-at="2025-05-19T19:34:51 IST" name="testCreateUserWithContainer" finished-at="2025-05-19T19:34:51 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithContainer -->
+        <test-method signature="testGetUserFromContainer()[pri:0, instance:org.example.test.DockerizedWiremockTest@67a20f67]" started-at="2025-05-19T19:34:51 IST" name="testGetUserFromContainer" finished-at="2025-05-19T19:34:51 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserFromContainer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.test.DockerizedWiremockTest@67a20f67]" started-at="2025-05-19T19:34:51 IST" name="teardown" finished-at="2025-05-19T19:34:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.example.test.DockerizedWiremockTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
