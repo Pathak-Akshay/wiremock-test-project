@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/users/1"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": 1,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 28,
+      "department": "Engineering"
+    }
+  }
+}
