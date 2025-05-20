@@ -58,3 +58,28 @@ The testng.xml file organizes the test suites and controls test execution flow.
 
 - Dockerfile: Defines the container for running the tests
 - docker-compose.yml: Sets up the multi-container environment with separate services for tests and Wiremock
+
+## Advanced Usage
+### Custom Wiremock Behaviors
+Extend the example by implementing:
+
+- Response templating
+- Request verification
+- Stateful behavior
+- Response delays
+
+## CI/CD Integration
+This project is designed to be easily integrated into CI/CD pipelines. The Docker-based approach ensures consistent test execution across environments.
+
+## Troubleshooting
+### Common Issues
+
+1. Connection refused to Wiremock
+
+- Ensure Wiremock is running on the expected port
+- Check network settings in Docker Compose if using containerized tests
+
+2. Tests failing inconsistently
+
+- Verify Wiremock mappings are correctly defined
+- Ensure proper test isolation between test methods
