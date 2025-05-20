@@ -22,6 +22,34 @@ This repository provides a complete solution for setting up reliable and efficie
 - Maven 3.6 or higher
 - Docker and Docker Compose (for containerized tests)
 
+## Project Structure
+```
+wiremock-test-project/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── example/
+│   │               └── service/
+│   │                   └── ApiClient.java
+│   └── test/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           └── test/
+│       │               ├── WiremockTest.java
+│       │               └── DockerizedWiremockTest.java
+│       └── resources/
+│           └── wiremock/
+│               └── mappings/
+│                   ├── user-get.json
+│                   └── user-post.json
+├── testng.xml
+├── pom.xml
+├── Dockerfile
+└── docker-compose.yml
+```
+
 ## Getting Started
 **1. Clone the Repository**
 - git clone https://github.com/yourusername/wiremock-test-project.git
